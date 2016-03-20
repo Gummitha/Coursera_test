@@ -1,0 +1,48 @@
+* {
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+/***************************************Base Styles ******************************************************/
+body{
+	font-family:"arial";
+}
+#header-nav
+{
+  background:grey;
+  border: 1px solid  black;
+}
+ #header-nav a 
+ { 
+    font-size: 32px ;
+    font-style: bold;
+   color:black;
+ 
+}
+#nav-toggle-button{
+ border: 1px solid black;
+}
+#collapsable-nav a 
+{
+   margin-top:-7px;
+    margin-bottom:-7px;
+  background:green;
+  font-size: 1.3em;
+border: 0.5px solid  black;
+}
+
+
+#menu-header{
+ margin-top:100px;
+
+}
+
+.article
+{
+  box-sizing:border-box;
+ float: left;
+position:relative;
+background:grey;
+border: 1px solid  black;
+margin-top:10px;
+}  
